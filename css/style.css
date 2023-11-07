@@ -1,3 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .container.fluid {
+    width: 100%;
+} */
+
 #card1 {
     margin-top: 10px;
 }
+
+h5 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.btn {
+    display: flex;
+    align-items: start;
+}
+
