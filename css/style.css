@@ -36,3 +36,8 @@
 .nav-item {
     text-decoration: antiquewhite;
 }
+
+#aboutme {
+    display: flex;
+    justify-content: flex-end;
+}
