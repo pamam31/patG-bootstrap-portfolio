@@ -12,11 +12,8 @@
     width: 100%;
 } 
 
-#navbarNav {
-    display: flex;
-    justify-content: flex-end;
-    z-index: 5;
-}
+
+
 
 /* jumbotron */
 .jumbotron {
