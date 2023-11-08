@@ -12,18 +12,12 @@
     width: 100%;
 } 
 
-
-
-
 /* jumbotron */
 .jumbotron {
     background-image: url(/Images/jumbotron.jpg);
     background-size: cover;
     height: 93vh;
 }
-
-/* .text {
-    text-align: left; */
 
 
 .nav-item {
