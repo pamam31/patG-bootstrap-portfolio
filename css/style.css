@@ -3,24 +3,25 @@
     padding: 0;
 }
 
+/* navbar */
 .navbar-toggler {
     background-color: rgb(76, 76, 76) !important;
 }
 
 .container.fluid {
     width: 100%;
-} */
-
-/* #card1 {
-    margin-top: 10px;
-} */
+} 
 
 #navbarNav {
     display: flex;
     justify-content: flex-end;
     z-index: 5;
 }
+.nav-item {
+    text-decoration: antiquewhite;
+}
 
+/* jumbotron */
 .jumbotron {
     background-image: url(/Images/jumbotron.jpg);
     background-repeat: no-repeat;
@@ -32,12 +33,21 @@
     text-align: left;
 }
 
-
-.nav-item {
-    text-decoration: antiquewhite;
-}
-
+/* about me */
 #aboutme {
     display: flex;
     justify-content: flex-end;
 }
+
+/* footer */
+.footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+    
+
