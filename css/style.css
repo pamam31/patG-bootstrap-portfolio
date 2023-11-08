@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-/* .container.fluid {
+.navbar-toggler {
+    background-color: rgb(76, 76, 76) !important;
+}
+
+.container.fluid {
     width: 100%;
 } */
 
