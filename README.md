@@ -8,7 +8,7 @@ N/A
 
 ## Usage
 ![](../patG-bootstrap-portfolio-1/Images/bootstrapPortfolio.png)
-By creating aresponsive webpage, this makes the page more accessiblle and easier to navigate for the user making for a more pleasant browsing experience.
+By creating a responsive webpage, this makes the page more accessiblle and easier to navigate for the user making for a more pleasant browsing experience.
 
 
 ## Credits
