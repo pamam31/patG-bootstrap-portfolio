@@ -14,7 +14,7 @@
 
 /* jumbotron */
 .jumbotron {
-    background-image: url('../Images/jumbotron.jpg') !important;
+    background-image: url('../Images/jumbotron.jpg');
     background-size: cover;
     height: 93vh;
 }
