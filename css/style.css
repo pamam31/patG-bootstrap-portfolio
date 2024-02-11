@@ -14,8 +14,7 @@
 
 /* jumbotron */
 .jumbotron {
-    /* background-color: red; */
-    background-image: url(./Images/jumbotron.jpg) !important;
+    background-image: url(../images/jumbotron.jpg) !important;
     background-size: cover;
     height: 93vh;
 }
