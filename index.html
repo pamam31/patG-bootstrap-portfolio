@@ -12,44 +12,47 @@
 
 <body>
 <!-- Nav Bar -->
-<div>
-    <nav class="navbar navbar-expand-lg bg-dark opacity-100">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">PG</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbar-nav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light active" aria-current="page" href="#">About me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#Work">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Contact me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#connect">Connect with me!</a>
+        </li>
+        <li class="nav-item">
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <!-- hero section Jumbotron -->
-<div class="p-3 mb-5 jumbotron">
+<div class="p-3 mb-2 jumbotron">
     <div class="container" style="max-width: 100%;">
       <h1 class="display-5 fw-bold text-light text">Welcome</h1>
       <p class="col-md-4 fs-7 text-light text">I'm Patricia, web developer, have a roam!</p>
+    </div>
+    <div class="scroll-container">
+      <h2 id="scroll" class="p-5 text-center"> Scroll down to see more! </h2>
     </div>
 </div>
 
 <!-- Work section displaying projects in GRID, use CARDS that is lilnked -->
 <div id="Work">
-  <h3 class="display-5 fw-bold text m-3">Work</h3>
+  <h3 class="fw-bold text m-2 ">Work</h3>
 </div>
 <div class="container-fluid">
   <div class="row m-3">
@@ -73,9 +76,9 @@
     <!-- card 2,3,4 row 2 -->
       <div class="container-fluid mb-2">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4"">
           <div class="card col-sm-6 col-md-6 m-3" style="width: 18rem;">
-              <img src="./Images/project-2.jpg" class="card-img-top img-responsive" alt="..." style="max-height: 190px">
+              <img src="./Images/project-2.jpg" class="card-img-top img-responsive" alt="website about Jake's Eatery" style="max-height: 190px">
               <div class="card-body">
                 <h5 class="card-title">Calculator</h5>
                 <p class="card-text p-1">Project coming soon.</p>
@@ -108,7 +111,7 @@
 
 <!-- skills -->
 <div class="Skills">
-  <h3 class="display-5 fw-bold m-3 p-4">Skills</h3>
+  <h3 class="fw-bold m-5 p-4">Skills</h3>
 </div>
 <div class="container text-center">
   <div class="row">
@@ -147,9 +150,9 @@
       
      
 <!-- Contact Me section and about me in the same row -->
-<div class="container m-5" style="max-height: 700px;">
+<div class="container m-5" style="max-height: 700px;" id="About">
   <div class="row">
-    <div class="col-md-6" id="aboutMe">
+    <div class="col-md-6">
       <div class="col-12  text-left" style="max-width: 100%">
         <h3 class="display-5 fw-bold m-3">About me</h3>
         <div class="h-100 p-1 text-bg-white rounded-3 m-3">
@@ -166,7 +169,7 @@
 </div>
 
 <!-- footer section: links to socials, button should have a hover box shadow effect-->
-<div class="container footer">
+<div class="container footer" id="connect">
   <div class="row">
     <div class="col-2">
       <a href="https://www.linkedin.com" target="_blank"><img src="./Images/LI.png" class="btn icon-link-hover shadow p-3 mb-5 bg-body rounded" style="max-width: 60px;" /></a>

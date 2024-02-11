@@ -14,9 +14,24 @@
 
 /* jumbotron */
 .jumbotron {
-    background-image: url(/Images/jumbotron.jpg);
+    /* background-color: red; */
+    background-image: url(../Images/jumbotron.jpg) !important;
     background-size: cover;
     height: 93vh;
+}
+
+#scroll {
+    color: white;
+    background-color: gray;
+    border-radius: 3px;
+    opacity: 80%
+    
+   
+}
+
+.scroll-container {
+    max-height: 600px !important;
+    
 }
 
 
@@ -39,6 +54,8 @@
     align-items: center;
     flex-direction: column;
 }
+
+
 
 
     
