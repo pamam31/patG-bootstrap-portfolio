@@ -14,7 +14,7 @@
 
 /* jumbotron */
 .jumbotron {
-    background-image: url('../Images/jumbotron.jpg');
+    background-image: url('https://raw.githubusercontent.com/pamam31/patG-bootstrap-portfolio/main/Images/jumbotron.jpg');
     background-size: cover;
     height: 93vh;
 }
@@ -43,6 +43,10 @@
 #aboutme {
     display: flex;
     justify-content: flex-end;
+}
+
+.card-deck {
+    align-items: stretch;
 }
 
 /* footer */
