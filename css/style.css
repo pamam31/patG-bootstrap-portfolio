@@ -14,7 +14,7 @@
 
 /* jumbotron */
 .jumbotron {
-    background-image: url(../../patG-bootstrap-portfolio/Images/jumbotron.jpg) !important;
+    background-image: url('../Images/jumbotron.jpg') !important;
     background-size: cover;
     height: 93vh;
 }
