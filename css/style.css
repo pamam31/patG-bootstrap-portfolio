@@ -46,7 +46,8 @@
 }
 
 .card-deck {
-    align-items: stretch;
+    /* display: flex; */
+    
 }
 
 /* footer */
