@@ -41,6 +41,10 @@
 #project-1 {
     height: 40;
 }
+/* #project-container {
+    display: flex;
+    flex-wrap: wrap;
+} */
 
 .card-text, .card-title {
     color: black;
