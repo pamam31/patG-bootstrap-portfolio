@@ -51,44 +51,61 @@
 </div>
 
 <!-- Work section displaying projects in GRID, use CARDS that is lilnked -->
-<div id="Work">
-  <h3 class="fw-bold text m-2 ">Work</h3>
-    <!-- Jake's Eatery card -->
-    <div class="card" style="width: 20rem;">
-      <img class="card-img-top" src="./Images/project-1.png" alt="Image of a website called Jake's Eatery">
-      <div class="card-body">
-        <h5 class="card-title">Jake's Eatery</h5>
-        <p class="card-text"> This is a webpage created with HTML and CSS using flexbox.</p>
-      </div>
-    </div>
-  
 <!-- Card deck -->
-<div class="card-deck">
+<div class="container card-deck md-">
   <div class="row">
-  <div class="card d-flex col-lg-4 col-md-6">
-    <img class="card-img-top" src="./Images/project-2.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Calculator app</h5>
-      <p class="card-text">A simple calculator app that allows the user to calculate simple arithmatics.</p>
-      <p class="card-text"><small class="text-muted">Created using CSS, HTML and JavaScript</small></p>
-    </div>
-  </div>
-  <div class="card d-flex col-lg-4 col-md-6-100">
-    <img class="card-img-top" src="./Images/project-3.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Portfolio</h5>
-      <p class="card-text">A dynamic portfolio for a local Photographer</p>
-      <p class="card-text"><small class="text-muted">Created using ReactJS and Tailwind</small></p>
-    </div>
-  </div>
-  <div>
-    <div class="card d-flex col-lg-4 col-md-6 ">
-      <img class="card-img-top" src="./Images/project-4.jpg" alt="Card image cap">
+    <div class="col-sm">
+      <!-- work section -->
+      <div id="Work">
+        <h3 class="fw-bold text m-2 d-flex hover-overlay ">Projects</h3>
+          <!-- Jake's Eatery card -->
+        <a href="https://github.com/pamam31/" style="text-decoration: none;">
+          <div class="card d-flex m-2" >
+            <img class="card-img-top" src="./Images/project-1.png" alt="Image of a website called Jake's Eatery" id="project-1">
+            <div class="card-body">
+              <h5 class="card-title">Jake's Eatery</h5>
+              <p class="card-text"> This is a webpage created with HTML and CSS using flexbox.</p>
+            </div>
+          </div>
+        </a>
+   <!-- other project cards -->
+  <div class="row">
+    <div class="d-flex col">
+  <div class="m-2">     
+    <a href="https://github.com/pamam31/" style="text-decoration: none;">
+    <div class="card col-sm" style="width: 20rem;">
+      <img class="card-img-top" src="./Images/project-2.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Cat "GPT"</h5>
-        <p class="card-text">A chatbot that generates an AI cat from your own description</p>
-        <p class="card-text"><small class="text-muted">Created using ReatJS and tailwind</small></p>
+        <h5 class="card-title">Calculator app</h5>
+        <p class="card-text">A simple calculator app that allows the user to calculate simple arithmatics.</p>
+        <p class="card-text"><small class="text-muted">Created using CSS, HTML and JavaScript</small></p>
       </div>
+    </a> 
+    </div>
+    </div>
+    <a href="https://github.com/pamam31/" style="text-decoration: none;">
+    <div class="card d-flex col m-2"  style="width: 20rem;">
+      <img class="card-img-top" src="./Images/project-3.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Portfolio</h5>
+        <p class="card-text">A dynamic portfolio for a local Photographer</p>
+        <p class="card-text "><small class="text-muted">Created using ReactJS and Tailwind</small></p>
+      </div>
+    </a>
+    </div>
+    <div>
+      <a href="https://github.com/pamam31/" style="text-decoration: none;">
+      <div class="card d-flex col-sm m-2" style="width: 20rem;">
+        <img class="card-img-top" src="./Images/project-4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Cat "GPT"</h5>
+          <p class="card-text">A chatbot that generates an AI cat from your own description</p>
+          <p class="card-text"><small class="text-muted">Created using ReatJS and tailwind</small></p>
+        </div>
+      </a>
+      </div>
+      </div>
+     </div> 
     </div>
   </div>
 </div>
@@ -150,7 +167,7 @@
         </div>
       </div>
     </div>
-      <div class="col-md-4" id="aboutme">
+      <div class="col-md-4 w-50" id="aboutme">
       <img src="./Images/about.jpg" class="rounded-circle col-sm-4" style="max-height: 200px;">
     </div>
   </div>

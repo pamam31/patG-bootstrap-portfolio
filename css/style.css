@@ -38,16 +38,23 @@
     text-decoration: antiquewhite;
 }
 
+#project-1 {
+    height: 40;
+}
 
+.card-text, .card-title {
+    color: black;
+}
 /* about me */
 #aboutme {
     display: flex;
     justify-content: flex-end;
 }
 
-.card-columns {
-    display: inline-block
-}
+/* .card-columns {
+    display: flex;
+    flex-direction: row; */
+/* } */
 
 /* footer */
 .footer {
