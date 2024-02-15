@@ -7,7 +7,7 @@ This website was created to create a responsive personal portfolio webpage by re
 N/A
 
 ## Usage
-![](../patG-bootstrap-portfolio-1/Images/bootstrapPortfolio.png)
+![alt text](Images/bootstrapPortfolio.png)
 By creating a responsive webpage, this makes the page more accessiblle and easier to navigate for the user making for a more pleasant browsing experience.
 
 
