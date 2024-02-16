@@ -7,7 +7,7 @@ This website was created to create a responsive personal portfolio webpage by re
 Link for deployed app [here](https://pamam31.github.io/patG-bootstrap-portfolio/)
 
 ## Usage
-![alt text](Images/bootstrapPortfolio.png)
+![screenshot of webpage](Images/webpage.png)
 By creating a responsive webpage, this makes the page more accessiblle and easier to navigate for the user making for a more pleasant browsing experience.
 
 
