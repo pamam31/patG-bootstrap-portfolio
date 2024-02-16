@@ -4,7 +4,7 @@
 This website was created to create a responsive personal portfolio webpage by reducing the need to use media queries, as well as providing a place to put my future projects. Bootstrap was used to create a webpage with a navigation bar, hero , skills , an about and a footer section. 
 
 ## Installation
-N/A
+Link for deployed app [here](https://pamam31.github.io/patG-bootstrap-portfolio/)
 
 ## Usage
 ![alt text](Images/bootstrapPortfolio.png)
